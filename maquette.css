@@ -22,6 +22,7 @@ header{
      background-size: cover;
    
      position: relative;
+     border-radius: ;
 
 }
 /*header::before{
@@ -64,10 +65,12 @@ a{
       font-weight: 700;
       border-radius: 50px bold;
       margin-top: 20px;
+      margin-left: 100px;
 }
 
 #navbar ul li a:hover{
-    border: 1px solid #9f9292;
+    border-radius: 20px solid #9f9292;
+    
 }
 header .content{
     display: flex;
@@ -326,14 +329,14 @@ form input{
     margin-top: 50px;
     background: #EEE1FF;
 }
-form button{
+form .btn11{
     background: transparent;
     border: 0;
     outline: none;
     cursor: pointer;
 
 }
-form button {
+form .btn11 {
     height: 50px;
     width: 100%;
     border-radius: 50px;
@@ -348,4 +351,12 @@ form button {
     margin-top: 50px;
     width: 50px;
     
+}
+#btn10{
+    margin-left: 290px;
+    border-radius: 50PX;
+    width: 80PX;
+    height: 40px;
+    background: #F5167E;
+    color: #ccc;
 }
