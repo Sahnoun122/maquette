@@ -90,7 +90,7 @@ header .content{
       header .content h1{
         margin: 20px 0 40px;
         color: azure;
-      }
+       }
 #btn1{
     height: 50px;
      width: 200px;
@@ -112,6 +112,7 @@ header .content{
 }
 
 .img2{
+    display: flex;
     position: relative;
     height: 140px;
     width: 1086px;
@@ -120,16 +121,57 @@ header .content{
     border-radius: 20px;
     background-color: #242565;
 }
-.img2{
+.opt{
+    margin-left: 10px;
+    padding: 20px;
 
-    padding: 30px;
-    display: grid;
-    grid-template-columns: 10px 10px 10px;
 }
-.nav2 h3{
+.opt2 input{
+    background: #242565;
+    color: white;
+
+}
+.opt2 label{
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.opt1 input{
+    background: #242565;
+    color: white;
+}
+.select{
+    margin-top: 80px;
+    background: #242565;
+}
+.select select{
+    background: #242565;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #ccc;
+}
+.select label{
+    color: #A5A5A5;
+}
+
+.opt1 label{
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.bbbb{
+    display: flex;
+    margin-left: 900px;
+    padding: auto;
+}
+
+.nav3 h3{
     left: -30px;
-    margin-left: 50px;
+    margin-left: 300px;
     margin-top: 50px;
+    font-size: 30px;
+    color: #242565;
 }
  .nav2 button{
     display: inline;
@@ -142,7 +184,6 @@ header .content{
     outline: none;
 }
 .butn{
-    margin-left: 900px;
     outline: none;
 }
 
@@ -207,17 +248,23 @@ header .content{
 }
 .color  h2{
     width: 613px;
-    height: 46px;
    margin-left: 680px;
-   margin-top: -10px;
+   margin-top: -100px;
    justify-content: center; 
-   /* align-items: center; */
+   align-items: center; 
 
 }
 #hhh2{
     margin-top: 50px;
-    justify-content: center; 
-    align-items: center;
+
+ 
+}
+.ccc h2{
+    margin-top: 10px;
+}
+.ccc p{
+    margin-left: 500px;
+    margin-top: 100px;
 }
 .imagee{
     display: flex;
@@ -335,6 +382,14 @@ form .btn11{
     outline: none;
     cursor: pointer;
 
+}
+
+.butn{
+    border-radius: 50px;
+    width: 170px;
+    height: 50px;
+    background: white;
+    padding: 10px;
 }
 form .btn11 {
     height: 50px;
