@@ -22,7 +22,6 @@ header{
      background-size: cover;
    
      position: relative;
-     border-radius: ;
 
 }
 
@@ -358,9 +357,7 @@ footer{
     margin-left: 650px;
     margin-top: 20px;
 }
-footer hr{
-    
-}
+
 .row{
     width: 85%;
     margin: auto;
