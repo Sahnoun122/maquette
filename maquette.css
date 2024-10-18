@@ -154,8 +154,21 @@ header .content{
 .select label{
     color: #A5A5A5;
 }
-.opt option{
-    background-color: #242565;
+.opt p{
+    color: #ccc;
+}
+.opt select{
+    margin-top: 45px;
+    width: 300%;
+    background: #242565;
+    color: #ccc;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    font-size: 15px;
+}
+.img2 p{
+  color: #ccc;
 }
 
 .opt1 label{
@@ -262,6 +275,14 @@ header .content{
 
  
 }
+.aug{
+    width: 100px;
+    padding-top: 5px;
+}
+.aug span {
+    color: #3D37F1;
+    font-weight: bold;
+}
 .ccc h2{
     margin-top: 10px;
 }
@@ -318,6 +339,14 @@ footer{
     padding: 100px 0px 30px;
     line-height: 20px;
 
+    
+}
+#p99{
+    margin-left: 650px;
+    margin-top: 20px;
+}
+footer hr{
+    
 }
 .row{
     width: 85%;
@@ -417,4 +446,33 @@ form .btn11 {
     height: 40px;
     background: #F5167E;
     color: #ccc;
+    cursor: pointer;
 }
+#btn10:hover{
+    color: #3d2731;
+}
+
+
+@media screen and (max-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
