@@ -154,6 +154,9 @@ header .content{
 .select label{
     color: #A5A5A5;
 }
+.opt option{
+    background-color: #242565;
+}
 
 .opt1 label{
     color: white;
