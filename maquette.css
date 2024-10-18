@@ -472,12 +472,4 @@ form .btn11:hover{
 #btn10:hover{
     color: #3d2731;
 }
-
-
-@media  (max-width: 600px) {
-    #navbar{
-        display: none;
-    } 
-  }
-
   
