@@ -25,15 +25,7 @@ header{
      border-radius: ;
 
 }
-/*header::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba( 0,0 ,0 ,0.6);
-}*/
+
 
 ul{
     list-style: none;
@@ -101,7 +93,17 @@ header .content{
      justify-content: center;
      align-items: center;
      cursor: pointer;
+     transition: 1s;
+
 }    
+#btn1:hover{
+    color: #d35e92;
+    letter-spacing: 1px;
+}
+#btn2:hover{
+    color: #d35e92;
+    letter-spacing: 1px;
+}
 
 #btn2{
     height: 50px;
@@ -109,6 +111,7 @@ header .content{
      border-radius: 40px;
      margin-top: -50px;
      cursor: pointer;
+     transition: 1s;
 }
 
 .img2{
@@ -217,11 +220,18 @@ header .content{
     box-shadow: 0px 2px 4px rgb(0, 0,0, 0.2);
     margin: 20px;
     border-radius: 20px;
+    cursor: pointer;
+
 }
 .item img{
     width: 100%;
     height: auto;
+
 }
+.item:hover{
+    scale: 1.1;
+  }
+
 .pp{
     padding: 16px;
     display: flex;
@@ -301,8 +311,11 @@ header .content{
     justify-content: center;
     flex-wrap: wrap;
     margin-left: 100px;
+    cursor: pointer;
 }
-
+.blog:hover{
+    scale: 1.1;
+  }
 
 .blog1{
     width: 325px;
@@ -415,6 +428,9 @@ form .btn11{
     cursor: pointer;
 
 }
+#inpo{
+    background: #0A075F;
+}
 
 .butn{
     border-radius: 50px;
@@ -430,6 +446,11 @@ form .btn11 {
     background-color: #F5167E;
     color: aliceblue;
     margin-top: 40px;
+    transition: 1s;
+}
+form .btn11:hover{
+    color: #8d3a60;
+    letter-spacing: 1px;
 }
 
 .icon i{
@@ -453,26 +474,10 @@ form .btn11 {
 }
 
 
-@media screen and (max-width: 576px) {
-    .container {
-      max-width: 540px;
-    }
+@media  (max-width: 600px) {
+    #navbar{
+        display: none;
+    } 
   }
+
   
-  @media screen and (max-width: 768px) {
-    .container {
-      max-width: 720px;
-    }
-  }
-  
-  @media screen and (max-width: 992px) {
-    .container {
-      max-width: 960px;
-    }
-  }
-  
-  @media screen and (max-width: 1200px) {
-    .container {
-      max-width: 1140px;
-    }
-  }
